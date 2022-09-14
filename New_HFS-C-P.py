@@ -258,4 +258,4 @@ if __name__ == "__main__":
                                       'feature selection time', feature_selection_time, str(names_f), scores]
                 save.loc[len(save)] = row_selection_time
 
-        # save.to_csv(f'res_{i}_new.csv')
+        save.to_csv(f'res_{i}_new.csv')
